@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Billion Man — Where Technology Becomes Living</title>
+  <meta name="description" content="Billion Man Co., Ltd. จำหน่ายและติดตั้ง Smart Home & Security พร้อมโรงงานผลิต Smart Furniture แบรนด์ settrix" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- TOPBAR -->
+  <header class="topbar" id="top">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="Billion Man">
+        <div class="brand-logo-wrap">
+          <img class="brand-logo" src="./assets/logo.png" alt="Billion Man Co., Ltd." />
+        </div>
+        <div class="brand-text">
+          <div class="brand-name">Billion Man</div>
+          <div class="brand-sub">Where Technology Becomes Living</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#solutions">Solutions</a>
+        <a class="nav-link" href="#products">Products</a>
+        <a class="nav-link" href="#installations">Installations</a>
+        <a class="nav-link" href="#settrix">Settrix</a>
+        <a class="nav-link nav-pill" href="#contact">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileMenu" aria-hidden="true">
+      <a href="#about">About</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#products">Products</a>
+      <a href="#installations">Installations</a>
+      <a href="#settrix">Settrix</a>
+      <a class="btn btn-primary btn-block" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- SLIDER (ถัดจากเมนูเจอเลย) -->
+  <section class="slider" aria-label="Hero slider">
+    <div class="slider-track" id="sliderTrack">
+      <div class="slide is-active">
+        <img src="./assets/slider/s1.jpg" alt="Slide 1" />
+        <div class="slide-caption">
+          <div class="cap-title">Smart Living Solutions</div>
+          <div class="cap-sub">Smart Home • Smart Security • Smart Furniture</div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./assets/slider/s2.jpg" alt="Slide 2" />
+        <div class="slide-caption">
+          <div class="cap-title">Professional Installation</div>
+          <div class="cap-sub">วางระบบ • ติดตั้ง • ทดสอบ • ส่งมอบ</div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./assets/slider/s3.jpg" alt="Slide 3" />
+        <div class="slide-caption">
+          <div class="cap-title">In-house Manufacturing</div>
+          <div class="cap-sub">โรงงานผลิตเอง • ควบคุมคุณภาพ • งานเนียน</div>
+        </div>
+      </div>
+    </div>
+
+    <button class="slider-btn prev" id="prevSlide" aria-label="Previous slide">‹</button>
+    <button class="slider-btn next" id="nextSlide" aria-label="Next slide">›</button>
+
+    <div class="dots" id="dots" aria-label="Slide dots"></div>
+  </section>
+
+  <!-- HERO (โปรโมทบริษัท แบบทางการ) -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left reveal">
+        <div class="eyebrow">Billion Man Co., Ltd.</div>
+        <h1>Where Technology Becomes Living</h1>
+        <p class="lead">
+          จำหน่ายและติดตั้งระบบ Smart Home & Security พร้อมโรงงานผลิตเฟอร์นิเจอร์อัจฉริยะภายใต้แบรนด์ <b>settrix</b>
+          ที่ออกแบบให้ “สัมผัสได้จริง” ในชีวิตประจำวัน
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">ขอคำปรึกษา / นัดดูหน้างาน</a>
+          <a class="btn btn-outline" href="#installations">ดูผลงานติดตั้ง</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-title">End-to-End</div>
+            <div class="stat-desc">ขาย • ออกแบบ • ติดตั้ง • ดูแล</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">In-house</div>
+            <div class="stat-desc">โรงงานผลิตเฟอร์นิเจอร์เอง</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">Pro-grade</div>
+            <div class="stat-desc">มาตรฐานงานระบบมืออาชีพ</div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-right reveal">
+        <div class="panel">
+          <div class="panel-head">
+            <div class="panel-title">Company Highlights</div>
+            <div class="panel-sub">Smart Living • Security • settrix</div>
+          </div>
+
+          <div class="panel-list">
+            <div class="row">
+              <div class="badge">Smart Home</div>
+              <div class="row-desc">Lighting • Curtains • Sensors • Scenes</div>
+            </div>
+            <div class="row">
+              <div class="badge">Security</div>
+              <div class="row-desc">CCTV • Access Control • Alarm</div>
+            </div>
+            <div class="row">
+              <div class="badge">settrix</div>
+              <div class="row-desc">Designed to Sense You.</div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>About Billion Man</h2>
+        <p>
+          เราให้บริการโซลูชัน Smart Living แบบครบวงจร ตั้งแต่การวางระบบ ออกแบบ ติดตั้ง ทดสอบ ส่งมอบ และดูแลหลังการขาย
+          พร้อมความเชี่ยวชาญด้านเฟอร์นิเจอร์อัจฉริยะที่ผลิตเองในโรงงาน เพื่อคุณภาพและความเรียบร้อยระดับมืออาชีพ
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTIONS (ปรับบาลานซ์ spacing ด้วย section--balanced) -->
+  <section class="section section-alt section--balanced" id="solutions">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Solutions</h2>
+        <p>บริการชัดเจนแบบบริษัททางการ: ตรวจสอบได้ ขยายระบบได้ และใช้งานจริงในระยะยาว</p>
+      </div>
+
+      <div class="cards-3">
+        <article class="card reveal">
+          <h3>Smart Home</h3>
+          <p>ระบบบ้านอัจฉริยะที่ใช้งานง่าย: ไฟ, ม่าน, เซ็นเซอร์, ฉากการใช้งาน (Scenes)</p>
+          <ul>
+            <li>ออกแบบตามพื้นที่จริง</li>
+            <li>ตั้งค่าพร้อมใช้งาน</li>
+            <li>รองรับการขยายระบบ</li>
+          </ul>
+        </article>
+
+        <article class="card reveal">
+          <h3>Smart Security</h3>
+          <p>ระบบรักษาความปลอดภัยระดับมืออาชีพสำหรับบ้านและธุรกิจ</p>
+          <ul>
+            <li>CCTV / NVR / Monitoring</li>
+            <li>Access Control</li>
+            <li>Alarm & Safety</li>
+          </ul>
+        </article>
+
+        <article class="card reveal">
+          <h3>Design & Installation</h3>
+          <p>บริการสำรวจหน้างาน วางสเปก ติดตั้ง ทดสอบ และส่งมอบ พร้อมดูแลหลังติดตั้ง</p>
+          <ul>
+            <li>เอกสารส่งมอบ</li>
+            <li>มาตรฐานงานเดินระบบ</li>
+            <li>บริการบำรุงรักษา</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ SETTRIX PRESENT (ย้ายมาอยู่ระหว่าง Solutions และ Products แล้ว) -->
+  <section class="section section--balanced" id="settrix">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Settrix Presentation</h2>
+        <p>แบรนด์เฟอร์นิเจอร์อัจฉริยะ ที่ผสานความสวยงามเข้ากับเทคโนโลยีอย่างลงตัว</p>
+      </div>
+
+      <div class="settrix-grid">
+        <div class="settrix-left reveal">
+          <div class="settrix-logo-wrap">
+            <img class="settrix-logo" src="./assets/settrix.png" alt="SETTRIX logo" />
+          </div>
+        </div>
+
+        <div class="settrix-right reveal">
+          <div class="settrix-name">SETTRIX</div>
+          <div class="settrix-tag">Designed to Sense You.</div>
+
+          <div class="settrix-copy">
+            <p><b>EN:</b> SETTRIX is smart furniture designed to respond naturally to human behavior — lighting, sound, and automation that you can truly feel in everyday life.</p>
+            <p><b>TH:</b> SETTRIX คือเฟอร์นิเจอร์อัจฉริยะที่ “รับรู้และตอบสนอง” ผู้ใช้อย่างเป็นธรรมชาติ เช่น เปิดตู้แล้วไฟติด หรือพักผ่อนแล้วเสียงเพลงเริ่มทำงานเบาๆ ให้บรรยากาศผ่อนคลาย</p>
+          </div>
+
+          <div class="settrix-points">
+            <span class="pill">Smart Lighting</span>
+            <span class="pill">Soft Sound</span>
+            <span class="pill">Sensors</span>
+            <span class="pill">Custom Build</span>
+          </div>
+
+          <!-- ✅ เพิ่มช่องว่างกับชิปด้านบนด้วยคลาส settrix-cta -->
+          <a class="btn btn-primary settrix-cta" href="#contact">Request a Quote for SETTRIX</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS (ปรับบาลานซ์ spacing ด้วย section--balanced) -->
+  <section class="section section--balanced" id="products">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Products</h2>
+        <p>ตัวอย่างสินค้า/ชุดระบบ (ใส่รูปจริงเพื่อความน่าเชื่อถือ)</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product reveal">
+          <div class="ph">Smart Home System</div>
+          <div class="product-body">
+            <div class="product-title">Smart Home System</div>
+            <div class="product-sub">Lighting • Curtains • Sensors • Scenes</div>
+          </div>
+        </article>
+
+        <article class="product reveal">
+          <div class="ph">Security System</div>
+          <div class="product-body">
+            <div class="product-title">Smart Security</div>
+            <div class="product-sub">CCTV • Access Control • Alarm</div>
+          </div>
+        </article>
+
+        <article class="product reveal">
+          <div class="ph">settrix Furniture</div>
+          <div class="product-body">
+            <div class="product-title">settrix — Smart Furniture</div>
+            <div class="product-sub">Designed to Sense You.</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTALLATIONS -->
+  <section class="section section-alt" id="installations">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Installations</h2>
+        <p>ภาพงานติดตั้งจริงคือหลักฐานที่ดีที่สุดของความเป็นมืออาชีพ</p>
+      </div>
+
+      <div class="gallery">
+        <div class="g reveal">Installation 1</div>
+        <div class="g reveal">Installation 2</div>
+        <div class="g reveal">Installation 3</div>
+        <div class="g reveal">Installation 4</div>
+        <div class="g reveal">Installation 5</div>
+        <div class="g reveal">Installation 6</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT (อัปเดตข้อมูลจริง + กดได้บนมือถือ) -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-left reveal">
+        <h2>Contact</h2>
+        <p class="contact-muted">
+          ส่งรายละเอียดเบื้องต้น แล้วเราจะติดต่อกลับเพื่อเสนอแนวทางที่เหมาะกับพื้นที่จริง
+        </p>
+
+        <div class="contact-box">
+          <div><b>โทร:</b> <a href="tel:034406239">034 406 239</a></div>
+          <div><b>LINE ID:</b> <a href="https://line.me/ti/p/~oomeenoo" target="_blank" rel="noopener">oomeenoo</a></div>
+          <div><b>Email:</b> <a href="mailto:peerapataddall@gmail.com">peerapataddall@gmail.com</a></div>
+          <div><b>ที่อยู่:</b> 170 ตำบล แคราย อำเภอกระทุ่มแบน สมุทรสาคร 74110</div>
+        </div>
+      </div>
+
+      <form class="form reveal" onsubmit="return false;">
+        <label>ชื่อผู้ติดต่อ</label>
+        <input type="text" placeholder="ชื่อ-นามสกุล" />
+
+        <label>เบอร์โทร</label>
+        <input type="tel" placeholder="09x-xxx-xxxx" />
+
+        <label>สนใจบริการ</label>
+        <select>
+          <option>Smart Home</option>
+          <option>Smart Security</option>
+          <option>SETTRIX (Smart Furniture)</option>
+          <option>ทั้งหมด</option>
+        </select>
+
+        <label>รายละเอียด</label>
+        <textarea rows="4" placeholder="เช่น บ้าน 2 ชั้น / CCTV 8 จุด / ต้องการตู้ไฟอัตโนมัติ ฯลฯ"></textarea>
+
+        <button class="btn btn-primary btn-block" type="submit">ส่งข้อมูล (เดโม่)</button>
+        <div class="fine">* ฟอร์มนี้เป็นเดโม่ (ยังไม่เชื่อมระบบส่งจริง)</div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer footer-navy">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-title">Billion Man Co., Ltd.</div>
+        <div class="footer-sub">Where Technology Becomes Living</div>
+      </div>
+      <div class="footer-copy">© <span id="year"></span> Billion Man. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
